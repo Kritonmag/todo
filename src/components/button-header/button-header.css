@@ -1,0 +1,17 @@
+.button-header {
+  padding: 5px 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.button-header:not(:last-child) {
+  margin-right: 10px;
+}
+
+.button-active {
+  background-color: aquamarine;
+}
+
+.button-inactive {
+  background-color: bisque
+}

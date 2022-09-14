@@ -1,0 +1,16 @@
+.item-app-button {
+  padding: 5px 10px;
+  background-color: bisque;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.item-app-input {
+  padding: 10px 15px;
+  margin-right: 15px;
+  border-radius: 7px;
+}
+
+.flex {
+  display: flex;
+}

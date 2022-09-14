@@ -1,0 +1,36 @@
+.todo-list-item {
+  width: 200px;
+  align-items: center;
+}
+
+.flex {
+  display: flex;
+}
+
+.done {
+  text-decoration: line-through;
+}
+
+.important {
+  font-weight: bold;
+  color: steelblue;
+}
+
+.button-item {
+  padding: 5px 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.button-item:not(:last-child) {
+  margin-right: 10px;
+  margin-bottom: 5px;
+}
+
+.delete {
+  background-color: brown;
+}
+
+.button-important {
+ background-color: greenyellow;
+}

@@ -1,0 +1,10 @@
+.todo-list {
+  list-style: none;
+  padding: 0;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.todo-list:not(:last-child) {
+  margin-bottom: 30px;
+}
